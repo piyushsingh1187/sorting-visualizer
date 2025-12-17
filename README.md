@@ -1,16 +1,64 @@
-# React + Vite
+# 🔢 Sorting Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive **Sorting Visualizer** built with **React** and **Vite** that helps users understand how different sorting algorithms work through real-time animations and visual feedback.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+🔗 https://6942e9b3e3d4e8dd65ae8a35--dancing-yeot-eba56e.netlify.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 About the Project
 
-## Expanding the ESLint configuration
+Sorting Visualizer is a web-based application designed to visually demonstrate popular sorting algorithms. Users can generate random arrays or input their own values and observe how sorting algorithms compare, swap, and arrange elements step by step using color-coded animations.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project is especially useful for:
+- Learning Data Structures & Algorithms
+- Understanding sorting logic visually
+- Interview and exam preparation
+
+---
+
+## ✨ Features
+
+- 🎲 Generate random arrays
+- ✍️ Custom user input for arrays
+- 📊 Visualize multiple sorting algorithms:
+  - Bubble Sort
+  - Merge Sort
+  - Selection Sort
+- 🎨 Color-coded comparisons and swaps
+- ⏱️ Adjustable animation speed
+- 🔒 Disable controls while sorting is in progress
+- 📱 Responsive and clean UI
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React
+- **Build Tool:** Vite
+- **Language:** JavaScript (ES6+)
+- **Styling:** CSS3
+- **Deployment:** Netlify
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│── algorithm/
+│   ├── bubblesort.js
+│   ├── MergeSort.js
+│   └── SelectionSort.js
+│
+│── control/
+│   ├── Control.jsx
+│   └── Visualiser.jsx
+│
+│── App.jsx
+│── main.jsx
+│── App.css
+│── index.css
